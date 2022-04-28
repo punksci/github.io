@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bgoeller.me/programlogic</title>
+    <link href='../css/style.css' rel='stylesheet'>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Unica+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div id='logo'>
+        <a href='../index.html'><div class='shift-up'>bgoeller<span class=logo-half>.me</span></div></a>
+      </div>
+        <a href='../index.html#lessons-container'><p>Lessons</p></a>
+        <a href='./booleans.html'><p>Booleans</p></a>
+        <a href='./gamedesign.html'><p>Game Design</p></a>
+        <a href='./pcdissection.html'><p>PC Dissection</p></a>
+    </header>
+
+    <section id='lesson-grid'>
+      <div class='title-time'>
+        <h4>Lesson: Programming Logic</h4>
+          <br>
+        <h5>Time: 45 mins</h5>
+      </div>
+
+      <div class='left-frame'>
+        <h6>Overview</h6>
+        <p>This lesson is one part of a series of lessons I implemented to improve students problem solving skills and pattern recognition.  The series of lessons was composed of a mixture of self-created lessons and the use of codeHS software as well as Minecraft for Education software</p>
+        <h6>Purpose</h6>
+        <p>Learning to program or code can feel like an impossible task for many youth.  They get stuck in a mindset that is focused on memorizing information and therefore spend immense cognitive effort worrying about syntax or commands.  I needed to take the time to remove as much of the syntax worries as possible and focus on pattern recognition and problem solving.  If a student can focus on learning the logic involved in programming first, then learning syntax becomes easier.</p>
+        <div class='push-down'>
+          <h6>Contents</h6>
+            <ul>
+              <a href='./programlogic.html#warm-up'><li>Warm-up</li></a>
+              <a href='./programlogic.html#activity'><li>Activity</li></a>
+              <a href='./programlogic.html#direct-instruction'><li class='tab'>Direct Instruction/Lesson</li></a>
+              <a href='./programlogic.html#guided-practice'><li class='tab'>Guided Practice</li></a>
+              <a href='./programlogic.html#independent-practice'><li class='tab'>Independent Practice</li></a>
+              <a href='./programlogic.html#wrap-up'><li>Wrap-up/Closure</li></a>
+            </ul>
+        </div>
+      </div>
+
+      <div class='right-frame'>
+        <h6>Objectives</h6>
+        <p>Apply the basic steps in problem-solving to design and implement solutions in a programming language</p>
+        <h6>Indiana Standards</h6>
+        <p><span class='indicator-bold'>6-8.DI.1</span> &nbsp Use the basic steps in algorithmic problem-solving to design solutions (e.g., problem statement and exploration, examination of sample instance, design, implementing a solution, testing, and evaluation).</p>
+        <p><span class='indicator-bold'>6-8.PA.2</span> &nbsp Implement problem solutions using a programming language that includes looping behavior, conditional statements, logic, expressions, variables, and functions.</p>
+        <h6>Materials & Resources</h6>
+        <ul>
+          <li>computer</li>
+          <li>codeHS</li>
+        </ul>
+        <h6>Assessment Opportunities</h6>
+        <p>Although codeHS offers multiple choice quizzes, for a more complete view of student performance, consider using a series of coding puzzles to examine a student's ability to break a problem into smaller, manageable parts and looking for patterns to create efficient solutions.</p>
+      </div>
+
+      <div class='lesson-main'>
+        <div id='warm-up'>
+          <h6>Warm-up</h6>
+          <p>Upon arriving, students have basic starting instructions and the Objective for the day on the projector screen.  Students are expected to start with 5-10 minutes of typing practice each class.  After giving students time to practice their typing skills and get warmed up, I will provide an overview of the day’s lesson.  In this case, continued practice of “programming logic”, connected to a 3 week long effort to improve problem solving skills and pattern recognition.</p>
+        </div>
+
+        <div id='activity'>
+          <h6>Activity</h6>
+          <div id='direct-instruction'>
+            <p class='small-heading'>Direct Instruction</p>
+            <p>Today we will be covering 1.8 and 1.9 in CodeHS - Programming with Karel.
+              We are skipping 1.7 - because it is not really important to the goals of these lessons.
+              It is simply learning how to “comment” in JavaScript.
+              1.8 - titled “Super Karel”, is actually super easy; however, we will go through it because we need to practice the idea and skill of refactoring our code - or rewriting it to be more efficient and maintainable.
+              Remember building the Two Towers in Lesson 1.6?  We are going to go to that lesson first to copy our code.
+              Basically, Karel is smart now and can finally turn right.
+              So, we need to refactor our code to account for the idea that Karel no longer needs a separate “turnRight()” function.
+              Simply copy all of the code from 1.6 - except for the turnRight() function.  Then paste it into Lesson 1.8.  It really was that simple.
+              From there, the only other step is to add a comment to one of the functions.
+              A comment is created with two forward slashes.
+              When we use two forward slashes at the beginning of a line, it turns that line off and the computer does not read it.
+              This is also useful in testing code.
+              Check your partner and make sure you both have copied the code over, minus the turnRight() function. </p>
+              <p>Now, let’s move on to Lesson 1.9.
+              For this one, we will go through the slides.
+              You do not need to watch the video, I will just go through the slides real quick.
+              Essentially, we ask the question of what do we do if we need doggo to repeat an action?
+              If we need the dog to put down 100 tennis balls, are we going to write putBall() 100 times?
+              Of course not.  We have “the for loop”.
+              The for loop is a line of code that will help us run something a set number of times.
+              [example of the “for-loop” is shown in the slides on screen]
+              We will break this down a little bit to explain it.
+              This one line is actually 3 separate lines.
+              The first part tells the computer we start counting at 0, the second part tells the computer what we are counting UP TO, and the last part i++ tells the computer to begin counting.
+              Some of you might remember the “counter pattern” from 6th grade.
+              The i++ is just shorthand for the counter pattern.
+              Following this pattern, the code inside the curly brackets would be the code that is executed.
+              The curly brackets will be one of the things that will mess you up.
+              Students will leave a curly bracket off or add an extra one; it is a very common error. </p>
+              <p>We will skip the “quiz” section of this, because once again, it is not the point of these lessons.
+              We are trying to learn programming logic and practice those skills.
+              The quizzes are designed for you to learn small trivial parts of JavaScript.</p>
+              <p>I will show you their 2 examples, which you can see as well.
+              The first example just shows a repeated move.
+              Based on this example “for-loop”, How many spots will doggo move? (A:  9)
+              The next example is similar, except this time we see an action that happens AFTER the “for-loop” runs.  Based on this example, How many balls will the doggo set down?  (A:  6)</p>
+          </div>
+
+          <div id='guided-practice'>
+            <p class='small-heading'>Guided Practice</p>
+            <p>At this point, we are at the exercises, which is really a chance for you to have Independent Practice.
+            This is not a test, and I want to make sure you are figuring these out and see correct examples.
+            So I’ll help out.
+            First, I’ll walk you through 1.9.5, where doggo needs to pick up 100 tennis balls.
+            Then, I’ll have you attempt each one after this - I’ll try my best to follow the pace of the class.</p>
+            <p>I’m going to talk about how I approached this problem.
+            First, in the start() function, what analogy do we use to think about the start function?
+            [give class a chance to answer]
+            We think of it as “telling a story”.
+            So let’s tell the story of Karel picking up tennis balls.
+            What is the first thing Karel needs to do? [class response] He needs to move one spot, so we will type move.
+            Now what would Karel do?
+            Well, we don’t want to write “putBall” 100 times, so I’m going to create a function for that, I will name it “takeStack”, of course, you could name it many things, but it should have a name that makes sense.
+            Finally, after doggo takes the stack of tennis balls, what does doggo need to do? [class response] - He moves one more time.</p>
+            <p>Now, we don’t have a pre-built function for taking a stack, so we will create one.
+            [demonstrate how to write the function - which has been demonstrated many times before]
+            Now, in this function we will need to create the “for-loop” because we do not want to write putBall 100 times.
+            [demonstrate how to write the for-loop]
+            Excellent, I’ll give time for those who need to catch up to have this example typed out.
+            I want to make sure that you have at least one correct example from which to work.</p>
+          </div>
+
+          <div id='independent-practice'>
+            <p class='small-heading'>Independent Practice</p>
+            <p>From here, I’m going to give you time to try to solve each of the next 3 with your partner or someone near you.
+            I strongly encourage you to work with someone, bounce ideas around, and double check each other's code.</p>
+            <p>After I see everyone has had time to complete an exercise, I will post the correct answer up on the screen and briefly walk you through how I solved it.
+            [teacher will circulate the room and make sure students are understanding the exercises and help those who need extra help]</p>
+            <p>[when students have finished an exercise or some students are stuck - teacher will display the correct way to solve the exercise with code. -- it is important to see the correct way to write it if a student is not seeing the pattern]</p>
+          </div>
+        </div>
+
+        <div id='wrap-up'>
+          <h6>Warp-up</h6>
+          <p>Students will be given a couple quick exit questions to check for understanding related to programming logic.</p>
+          <p>(Example:  What is the analogy we use to describe programming at the start function?  -- Answer: write it like a story)</p>
+        </div>
+      </div>
+
+    </section>
+
+  </body>
+</html>
