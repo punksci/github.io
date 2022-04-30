@@ -417,7 +417,7 @@ footer p {
   font-size: 1.3rem;
 }
 
-/*lesson plan page*/
+/*--------------------lesson plan page----------------*/
 /*style for ALL Lesson Plan pages*/
 
 header {
@@ -572,4 +572,50 @@ img.motherboard {
   height: auto;
   margin-left: 5rem;
 }
+
+/*------------------MEDIA QUERIES-------------------*/
+
+@media screen and (min-width: 600px) {
+  #mobile-landing {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #landing-container,
+  #lessons-container,
+  #about-container,
+  footer {
+    display: none;
+  }
+
+  #mobile-landing {
+    display: block;
+  }
+
+  .mobile-main {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mobile-warning-box {
+    display: block;
+    text-align: center;
+    background-color: #bdbdbd;
+    margin-top: 30%;
+    width: 85%;
+  }
+
+  .mobile-warning-box p {
+    color: #000;
+    padding-bottom: 2rem;
+  }
+
+  .mobile-warning-box h5 {
+    color: #000;
+    font-weight: 700;
+  }
+
+}
+
 /*END*/
