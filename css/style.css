@@ -131,6 +131,12 @@ footer p {
   color: #fff;
 }
 
+.dark-text {
+  color: #000;
+}
+
+/*-- END OF GLOBAL --*/
+
 /*landing page*/
 
 #landing-container {
@@ -239,7 +245,7 @@ footer p {
   align-items: start;
 }
 
-/*Buttons - lessons page*/
+/*Buttons - lessons section*/
 
 .btn-box {
   background-color: #bdbdbd;
@@ -415,8 +421,8 @@ footer p {
   font-size: 1.3rem;
 }
 
-/*--------------------lesson plan page----------------*/
-/*style for ALL Lesson Plan pages*/
+/*-------------------- lesson plan pages ----------------*/
+/*-- global for Lesson Plan pages ONLY --*/
 
 header {
   height: 5rem;
@@ -558,6 +564,8 @@ header #logo {
 #guided-practice li {
   color: #fff;
 }
+
+/*-- Special Circumstances within Lesson Pages --*/
 
 img.rocksvg {
   width: 20rem;
@@ -727,4 +735,90 @@ img.motherboard {
   }
 }
 
+/*-- Special Section - App Design Overview --*/
+
+/*-- Header --*/
+#overview-page {
+  height: 5rem;
+  background-color: #121212;
+  display: flex;
+  align-items: center;
+  justify-content: unset;
+}
+
+#overview-page #logo {
+  margin-left: 3rem;
+}
+
+.paper-flex {
+  display: flex;
+  justify-content: center;
+}
+
+#graph-paper {
+  border: 4px solid #e0e0e0;
+  border-radius: 5px;
+  box-shadow: 0 0 0.7rem 0.4rem rgba(255, 255, 255, 0.4);
+  width: 80%;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  background-color: #fafafa;
+  background-image:
+  linear-gradient(0deg, transparent 24%,
+                  rgba(0,0,0, .05) 25%,
+                  rgba(0,0,0, .05) 26%, transparent 27%, transparent 74%,
+                  rgba(0,0,0, .05) 75%,
+                  rgba(0,0,0, .05) 76%, transparent 77%, transparent),
+  linear-gradient(90deg, transparent 24%,
+                  rgba(0,0,0, .05) 25%,
+                  rgba(0,0,0, .05) 26%, transparent 27%, transparent 74%,
+                  rgba(0,0,0, .05) 75%,
+                  rgba(0,0,0, .05) 76%, transparent 77%, transparent);
+  background-size: 50px 50px;
+}
+
+.task-flex,
+.task-flex a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.task-box {
+  background-color: #fafafa;
+  width: 70%;
+  border: 2px solid #424242;
+  border-radius: 3px;
+  margin-top: 2rem;
+}
+
+.task-box h5,
+.task-box p {
+  padding-left: 2rem;
+}
+
+.task-box h5 {
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+.bottom-margin-fix {
+  margin-bottom: 2rem;
+}
+
+#examples {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 5rem;
+}
+
+.code-review-form {
+  width: 80%;
+  height: auto;
+}
+
+a .task-box:hover {
+  background-color: #e0e0e0;
+}
 /*END*/
