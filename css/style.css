@@ -806,23 +806,6 @@ img.motherboard {
   margin-bottom: 2rem;
 }
 
-.examples-heading {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.examples-heading p {
-  padding-left: 3rem;
-}
-
-#examples {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  margin-bottom: 5rem;
-}
-
 .code-review-form {
   width: 80%;
   height: auto;
