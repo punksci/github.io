@@ -203,7 +203,7 @@ footer p {
 
 .special-tag {
   display: none;
-  position: fixed;
+  position: absolute;
   top: 25rem;
   left: 9rem;
 }
