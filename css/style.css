@@ -251,13 +251,20 @@ footer p {
   align-items: start;
 }
 
-.sci-title {
-  grid-column: 6 / span 3;
+.ex-title {
+  grid-column: 3 / span 9;
   grid-row: 3;
   text-align: center;
 }
 
-.sci-image-container {
+.ex-sub-title {
+  font-family: 'Arvo', serif;
+  color: #000;
+  font-size: 1.3rem;
+  text-transform: lowercase;
+}
+
+.ex-image-container {
   grid-column: 3 / span 9;
   grid-row: 4 / span 2;
   display: flex;
