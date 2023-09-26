@@ -1,0 +1,11 @@
+{
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "editor.quickSuggestions": {
+        "other": "off"
+    },
+    "editor.snippetSuggestions": "bottom",
+    "editor.suggest.matchOnWordStartOnly": false,
+    "editor.suggest.selectionMode": "never",
+    "editor.fontFamily": "'JetBrains Mono', 'monospace', monospace",
+    "editor.codeLens": false
+}
