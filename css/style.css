@@ -378,7 +378,7 @@ footer p {
 }
 
 .selfie {
-  width: 23rem;
+  width: 20rem;
   height: auto;
   float: right;
   padding-left: 4rem;
@@ -622,7 +622,7 @@ img.motherboard {
 
 /*------------------MEDIA QUERIES-------------------*/
 
-@media screen and (max-width: 1480px){
+@media screen and (max-width: 1600px){
   .nav-landing-container h1 {
     font-size: 6rem;
   }
@@ -655,6 +655,13 @@ img.motherboard {
 
   .box p {
     font-size: 1rem;
+  }
+  .selfie {
+    width: 17rem;
+    height: auto;
+    float: right;
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 }
 
