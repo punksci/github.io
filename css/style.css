@@ -444,6 +444,17 @@ footer p {
   color: #000;
 }
 
+.email a {
+  color: #000;
+  text-decoration: underline;
+  transition: all 0.2s ease-in-out;
+}
+
+.email a h5:hover {
+  color: #000;
+  font-size: 1.25em;
+}
+
 /*-------------------- lesson plan pages ----------------*/
 /*-- global for Lesson Plan pages ONLY --*/
 
