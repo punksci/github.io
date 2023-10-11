@@ -3,9 +3,13 @@
     "editor.quickSuggestions": {
         "other": "off"
     },
-    "editor.snippetSuggestions": "bottom",
+    "editor.snippetSuggestions": "none",
     "editor.suggest.matchOnWordStartOnly": false,
     "editor.suggest.selectionMode": "never",
     "editor.fontFamily": "'JetBrains Mono', 'monospace', monospace",
-    "editor.codeLens": false
+    "editor.codeLens": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.inlineSuggest.enabled": false,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.screenReaderAnnounceInlineSuggestion": false
 }
